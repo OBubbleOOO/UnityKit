@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace AX.Framework.Game
+namespace OBubbleKit.ValueSystem
 {
     public class EventChannelBaseSO : ScriptableObject
     {

@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace AX.Framework.Game
+namespace OBubbleKit.ValueSystem
 {
 	[CreateAssetMenu(menuName = "SO/Events/Standard/IEnumerator Event Channel")]
 	public class IEnumeratorEventChannelSO : EventChannelBaseSO

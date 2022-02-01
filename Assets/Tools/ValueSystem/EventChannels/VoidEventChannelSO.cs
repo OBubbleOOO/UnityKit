@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace AX.Framework.Game
+namespace OBubbleKit.ValueSystem
 {
 	/// <summary>
 	/// This class is used for Events that have no arguments (Example: Exit game event)
