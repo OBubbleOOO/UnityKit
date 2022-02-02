@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf2a1dae5bba994a9625dbbddf007c0, type: 3}
+  m_Name: Scene1
+  m_EditorClassIdentifier: 
+  sceneAsset: {fileID: 102900000, guid: a6c7597e6553bbe42a1d01f46a998511, type: 3}
+  scenePath: Assets/Examples/SceneLoadingSystem/Scene1/Scene1.unity
+  SceneName: Scene1
+  shortDescription: 
+  OnScenePause:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSceneResume:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFadeoutStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFadeoutEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFadeinStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFadeinEnd:
+    m_PersistentCalls:
+      m_Calls: []

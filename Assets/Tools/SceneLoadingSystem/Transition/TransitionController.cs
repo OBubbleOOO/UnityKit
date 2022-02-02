@@ -16,20 +16,20 @@ namespace OBubbleKit.SceneLoadingSystem
         public string ID;
         [SerializeField] protected Animator _animator;
         //淡出/淡入时间
-        [SerializeField] protected float FadeoutTime;
-        [SerializeField] protected float FadeinTime;
+        [SerializeField] protected float FadeoutTime = 1;
+        [SerializeField] protected float FadeinTime = 1;
         //Anim的淡出/淡入触发器名称
-        [SerializeField] protected string _fadeoutTrigger;
-        [SerializeField] protected string _fadeinTrigger;
+        [SerializeField] protected string _fadeoutTrigger = "Fadeout";
+        [SerializeField] protected string _fadeinTrigger = "Fadein";
 
         /// <summary>场景淡出</summary>
-        public IEnumerator Fadeout()
+        public virtual IEnumerator Fadeout()
         {
             _animator?.SetTrigger(_fadeoutTrigger);
             yield return new WaitForSeconds(FadeoutTime);
         }
 
-        public IEnumerator Fadein()
+        public virtual IEnumerator Fadein()
         {
             _animator?.SetTrigger(_fadeinTrigger);
             yield return new WaitForSeconds(FadeinTime);
